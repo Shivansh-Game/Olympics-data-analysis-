@@ -1,7 +1,7 @@
 import pandas as pd
 
-Beijing = pd.read_csv('Random python stuff\\2\\CSVs\\beijing_2022_Olympics_Nations_Medals.csv')
-Tokyo = pd.read_csv('Random python stuff\\2\\CSVs\\Tokyo 2020 Olympics Nations Medals.csv')
+Beijing = pd.read_csv('beijing_2022_Olympics_Nations_Medals.csv')
+Tokyo = pd.read_csv('Tokyo 2020 Olympics Nations Medals.csv')
 
 #get the total number of gold medals won by each country in beijing nad tokyo 
 d = {"Country" : ["Gold", "Silver", "Bronze", "Total"]}
